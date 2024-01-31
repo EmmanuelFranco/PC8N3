@@ -1,0 +1,44 @@
+main {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: system-ui;
+  }
+  .app-title {
+    font-size: 44px;
+    color: #333; 
+    margin-bottom: 20px;
+    margin-top: 5px;
+
+  }
+  
+  .fact-text {
+    font-size: 16px;
+    color: #666;
+    margin-top: 10px; 
+    text-align: center;
+  }
+  
+
+.custom-button {
+  background-color:  #0907a0;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.custom-button:hover {
+  background-color: #1be0ee;
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.5); 
+
+}
+
+.rounded-image {
+  border-radius: 10px; 
+}
